@@ -42,8 +42,9 @@ In this section, we do several action to cleaning the data and consuming and ana
 
 For good and detail result of the analysis , you can used data visualization tools like Tableau, Power BI or Looker Studio.
 In this project, I used Tableau for deeper analysis.
-From This Dashboard we can coclude that Attritio rate for the company is 16.12% from 1470 Count of Employee (About 237 Employee). Average age of it is 37 Years old. 56,12% of that are from R&D Department. 
+From This Dashboard we can conclude that The Attrition rate for the company is 16.12% from 1470 Count of Employee (About 237 Employee). Average age of it is 37 Years old. 56,12% of that are from R&D Department. 
 see the detail from Dashoard Picture.
+
 ![Dashboard Tableau HR Attrition Rate](https://github.com/user-attachments/assets/d313a8d2-3318-43c8-82e0-3d7dc97dd32e)
 
 
