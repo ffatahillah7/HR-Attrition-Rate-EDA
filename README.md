@@ -18,7 +18,7 @@ Download Dataset file : https://docs.google.com/spreadsheets/d/1h6FRlAS2lgCISGfK
 ### How To Learn with Cross-Industry Standard Process for Data Mining (CRISP-DM)
 1. Business Understanding : The Business Understanding phase focuses on understanding the objectives and requirements of the project. In this project, we should know about what's happening, why it's happening and who is involved in HR Dataset with attrition rate.
 
-2. Data Understanding : Next is the Data Understanding phase. Adding to the foundation of Business Understanding, it drives the focus to identify, collect, and analyze the data sets that can help you accomplish the project goals. The data is consist of Company, Campaign Type, Target Audience, Channel Used, Location,Clicks, Impressions and so on.
+2. Data Understanding : Next is the Data Understanding phase. Adding to the foundation of Business Understanding, it drives the focus to identify, collect, and analyze the data sets that can help you accomplish the project goals. The data is consist of Attrition Count, Age, Job Role, Education, Education Field,Department, Job Satisfaction and so on.
   
 3. Data Preparation : This phase, which is often referred to as “data munging”, prepares the final data set(s) for modeling. In this methods , we cleaning the data from anomali, null, not correlation data and any others missed from the data source. And Also transform data type from object to float, integer and Date. Last but not least, replace unnecessary sign, space, and etc with no space or no sign and then change data type.
        
@@ -39,5 +39,8 @@ In this section, we do several action to cleaning the data and consuming and ana
 
 For good and detail result of the analysis , you can used data visualization tools like Tableau, Power BI or Looker Studio.
 In this project, I used Tableau for deeper analysis.
-From This Dashboard we can coclude that all campaign from all company have successful clicks and impressions. Make their acquitition cost increase. They have successed used channel needed for their campaign. see the detail from Dashoard Picture.
+From This Dashboard we can coclude that Attritio rate for the company is 16.12% from 1470 Count of Employee (About 237 Employee). Average age of it is 37 Years old. 56,12% of that are from R&D Department. 
+see the detail from Dashoard Picture.
+![Dashboard Tableau HR Attrition Rate](https://github.com/user-attachments/assets/d313a8d2-3318-43c8-82e0-3d7dc97dd32e)
+
 
