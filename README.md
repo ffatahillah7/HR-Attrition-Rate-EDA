@@ -1,4 +1,4 @@
-# Analysis and Learning from HR Attrition-Rate Dataset
+# Analysis and Learn from HR Attrition-Rate Dataset
 The purpose of this project is to master the exploratory data analysis (EDA) in HR Dataset with attrition rate analysis with Pandas framework.
 
 Download Dataset file : https://docs.google.com/spreadsheets/d/1h6FRlAS2lgCISGfKFYrBBg0cHqQCP6_S/edit?usp=sharing&ouid=102809472116957999830&rtpof=true&sd=true
@@ -23,7 +23,7 @@ Dashboard link : https://public.tableau.com/app/profile/fajar.fatahillah/viz/HRA
 
 2. Data Understanding : Next is the Data Understanding phase. Adding to the foundation of Business Understanding, it drives the focus to identify, collect, and analyze the data sets that can help you accomplish the project goals. The data is consist of Attrition Count, Age, Job Role, Education, Education Field,Department, Job Satisfaction and so on.
   
-3. Data Preparation : This phase, which is often referred to as “data munging”, prepares the final data set(s) for modeling. In this methods , we cleaning the data from anomali, null, not correlation data and any others missed from the data source. And Also transform data type from object to float, integer and Date. Last but not least, replace unnecessary sign, space, and etc with no space or no sign and then change data type.
+3. Data Preparation : This phase, which is often referred to as “data munging”, prepares the final data set(s) for modeling. In this methods , we cleaning the data from anomali, null, not correlation data and any others missed from the data source. And Also transform data type from object to int with Label Encoder. Last but not least, replace unnecessary sign, space, and etc with no space or no sign and then change data type.
        
 4. Modeling : What is widely regarded as data science’s most exciting work is also often the shortest phase of the project. Here you’ll likely build and assess various models based on several different modeling techniques.
    
@@ -38,7 +38,9 @@ In this section, we do several action to cleaning the data and consuming and ana
 3. Check sign, space, and any other unnecessary format.
 4. Change, Replace and Edit all unnecesary format.
 5. Describe all summary data like mean, median, modus, std dev, and so on
-6. Create simple visualization for furhter analysis
+6. Export from data frame to excel file.
+7. Change format from object to int with LabelEncoder for matrix correlation chart.
+8. Create simple visualization for furhter analysis
 
 For good and detail result of the analysis , you can used data visualization tools like Tableau, Power BI or Looker Studio.
 In this project, I used Tableau for deeper analysis.
